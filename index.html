@@ -1,0 +1,490 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>MarkGray — AI Brand Strategist</title>
+<meta name="description" content="MarkGray helps tech companies and mid-sized businesses with AI transformation, AI adoption and brand strategy.">
+<meta property="og:title" content="MarkGray — AI Brand Strategist">
+<meta property="og:description" content="AI transformation for tech companies and mid-sized businesses.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<meta property="og:image" content="https://markgray.tr/assets/hero.jpg">
+<meta property="og:url" content="https://markgray.tr/">
+<link rel="canonical" href="https://markgray.tr/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&amp;display=swap">
+<style>
+html{scroll-behavior:smooth;scroll-padding-top:96px}
+.site-header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;box-shadow:0 1px 0 #141414}
+@media (max-width: 700px){html{scroll-padding-top:72px}}
+body{margin:0;background:#161616}
+[hidden]{display:none !important}
+a{color:#141414}a:hover{color:#D7191F}
+@media (max-width: 700px){
+  .nav-link-desktop{display:none !important}
+  .nav-tagline{display:none !important}
+  .site-header{flex-wrap:nowrap !important}
+  .site-nav{flex:0 0 auto !important;padding:0 !important}
+  #top{aspect-ratio:auto !important;min-height:0 !important;height:175vw !important;max-height:860px}
+  #top > img{object-position:58% 50% !important}
+  #top::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:linear-gradient(to bottom,rgba(236,233,226,0.55) 0%,rgba(236,233,226,0) 34%,rgba(20,20,20,0) 58%,rgba(20,20,20,0.6) 100%)}
+  #top > div{left:24px !important;right:24px !important;flex-direction:column !important;flex-wrap:nowrap !important;justify-content:space-between !important;align-items:flex-start !important;align-content:stretch !important;padding:28px 0 18px !important;gap:0 !important}
+  #top > div > div{flex:none !important}
+  #top > div > div:first-child{gap:16px !important}
+  #top > div > div:first-child p:first-child{font-size:17px !important}
+}
+</style>
+</head>
+<body>
+<div style="min-height: 100vh; background: #161616; padding: clamp(8px, 2.5vw, 32px); box-sizing: border-box; font-family: 'Roboto', Arial, sans-serif; color: #141414; -webkit-font-smoothing: antialiased">
+<div style="position: relative; max-width: 1280px; margin: 0 auto; background: #141414; border: 1px solid #141414; display: flex; flex-direction: column; gap: 1px; box-shadow: 0 30px 60px rgba(0,0,0,0.45)">
+
+<svg aria-hidden="true" width="100%" height="100%" style="position: absolute; inset: 0; z-index: 5; pointer-events: none; opacity: 0.09; mix-blend-mode: multiply">
+<filter id="paperGrain"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"></feTurbulence><feColorMatrix type="saturate" values="0"></feColorMatrix></filter>
+<rect width="100%" height="100%" filter="url(#paperGrain)"></rect>
+</svg>
+
+<header class="site-header" style="display: flex; flex-wrap: wrap; align-items: center; background: #ECE9E2; padding: 0 0 0 0">
+<div style="flex: 1 1 200px; background: #ECE9E2; display: flex; align-items: center; gap: 20px; padding: 18px 24px">
+<a href="#top" style="font-size: 20px; font-weight: 700; letter-spacing: -0.03em; text-decoration: none">MarkGray</a>
+<span class="nav-tagline" style="font-size: 11px; line-height: 1.4; letter-spacing: 0.1em; text-transform: uppercase; color: #4A4A4A; border-left: 1px solid #141414; padding-left: 16px" data-edit="tagline">AI transformation<br>Brand strategy<br>Product management</span>
+</div>
+<nav aria-label="Main menu" class="site-nav" style="flex: 2 1 520px; background: #ECE9E2; display: flex; flex-wrap: wrap; align-items: center; padding: 18px 0">
+<a href="#about" class="nav-link-desktop" style="flex: 1 1 100px; display: flex; align-items: center; justify-content: center; height: 46px; border-left: 1px solid #141414; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none" data-edit="nav_about">About</a>
+<a href="#services" class="nav-link-desktop" style="flex: 1 1 100px; display: flex; align-items: center; justify-content: center; height: 46px; border-left: 1px solid #141414; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none" data-edit="nav_services">Services</a>
+<a href="#work" class="nav-link-desktop" style="flex: 1 1 100px; display: flex; align-items: center; justify-content: center; height: 46px; border-left: 1px solid #141414; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none" data-edit="nav_work">Work</a>
+<a href="#contact" class="nav-link-desktop" style="flex: 1 1 100px; display: flex; align-items: center; justify-content: center; height: 46px; border-left: 1px solid #141414; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none" data-edit="nav_contact">Contact</a>
+<span style="flex: 0 0 64px; height: 46px; border-left: 1px solid #141414; display: flex; align-items: center; justify-content: center"><button type="button" aria-label="Open menu" id="menu-open" aria-expanded="false" aria-controls="menu-panel" style="width: 44px; height: 44px; padding: 0; border: 0; background: transparent; color: #141414; cursor: pointer; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="22" height="16" viewBox="0 0 22 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="square"><path d="M1 1.5h20M1 8h20M1 14.5h20"></path></svg></button></span>
+</nav>
+</header>
+
+<div id="menu-panel" role="dialog" aria-modal="true" aria-label="Menu" hidden="" style="position: fixed; inset: 0; z-index: 50; overflow-y: auto; background: #141414; color: #ECE9E2; display: flex; flex-direction: column; ">
+<div style="display: flex; justify-content: space-between; align-items: center; gap: 16px; padding: 18px 24px; border-bottom: 1px solid #3A3A3A">
+<div style="display: flex; align-items: center; gap: 20px">
+<span style="font-size: 20px; font-weight: 700; letter-spacing: -0.03em">MarkGray</span>
+<span style="font-size: 11px; line-height: 1.4; letter-spacing: 0.1em; text-transform: uppercase; color: #A3A3A3; border-left: 1px solid #ECE9E2; padding-left: 16px" data-edit="tagline">AI transformation<br>Brand strategy<br>Product management</span>
+</div>
+<button type="button" id="menu-close" aria-label="Close menu" style="width: 44px; height: 44px; padding: 0; border: 0; background: transparent; color: #ECE9E2; cursor: pointer; display: flex; align-items: center; justify-content: center"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="square"><path d="M2 2l16 16M18 2L2 18"></path></svg></button>
+</div>
+<nav aria-label="Menu links" style="flex: 1 1 auto; display: flex; flex-direction: column; padding: clamp(24px, 4vw, 48px) 24px">
+<a href="#about" data-menu-close="" style="display: flex; align-items: baseline; gap: 24px; padding: 14px 0; border-bottom: 1px solid #3A3A3A; color: #ECE9E2; text-decoration: none"><span style="font-size: 11px; color: #A3A3A3; min-width: 20px">01</span><span style="font-size: clamp(40px, 7vw, 96px); font-weight: 700; line-height: 0.95; letter-spacing: -0.045em; text-transform: uppercase" data-edit="nav_about">About</span></a>
+<a href="#services" data-menu-close="" style="display: flex; align-items: baseline; gap: 24px; padding: 14px 0; border-bottom: 1px solid #3A3A3A; color: #ECE9E2; text-decoration: none"><span style="font-size: 11px; color: #A3A3A3; min-width: 20px">02</span><span style="font-size: clamp(40px, 7vw, 96px); font-weight: 700; line-height: 0.95; letter-spacing: -0.045em; text-transform: uppercase" data-edit="nav_services">Services</span></a>
+<a href="#work" data-menu-close="" style="display: flex; align-items: baseline; gap: 24px; padding: 14px 0; border-bottom: 1px solid #3A3A3A; color: #ECE9E2; text-decoration: none"><span style="font-size: 11px; color: #A3A3A3; min-width: 20px">03</span><span style="font-size: clamp(40px, 7vw, 96px); font-weight: 700; line-height: 0.95; letter-spacing: -0.045em; text-transform: uppercase" data-edit="nav_work">Work</span></a>
+<a href="#contact" data-menu-close="" style="display: flex; align-items: baseline; gap: 24px; padding: 14px 0; border-bottom: 1px solid #3A3A3A; color: #ECE9E2; text-decoration: none"><span style="font-size: 11px; color: #A3A3A3; min-width: 20px">04</span><span style="font-size: clamp(40px, 7vw, 96px); font-weight: 700; line-height: 0.95; letter-spacing: -0.045em; text-transform: uppercase" data-edit="nav_contact">Contact</span></a>
+</nav>
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px 32px; padding: 16px 24px; border-top: 1px solid #3A3A3A">
+<span style="font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: #A3A3A3" data-edit="slogan">AI for smarter brands</span>
+<div style="display: flex; flex-wrap: wrap; gap: 4px 28px">
+<a href="https://www.linkedin.com/in/m-u%C4%9Fur-eralp/" data-link="linkedin" style="display: inline-flex; align-items: center; min-height: 44px; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; color: #ECE9E2" target="_blank" rel="noopener">LinkedIn</a>
+<a href="#" data-link="instagram" style="display: inline-flex; align-items: center; min-height: 44px; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; color: #ECE9E2" hidden="">Instagram</a>
+<a href="#" data-link="medium" style="display: inline-flex; align-items: center; min-height: 44px; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; color: #ECE9E2" hidden="">Medium</a>
+<a href="mailto:mark@markgray.tr" data-link="email" style="display: inline-flex; align-items: center; min-height: 44px; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; color: #ECE9E2">Email</a>
+</div>
+</div>
+</div>
+
+
+<section id="top" style="position: relative; isolation: isolate; background: #2B302E; color: #FFFFFF; aspect-ratio: 2576 / 1232; min-height: 560px; overflow: hidden; text-shadow: 0 1px 12px rgba(0,0,0,0.35)">
+<img src="assets/hero.jpg" alt="" width="2576" height="1232" style="position: absolute; inset: 0; z-index: -1; width: 100%; height: 100%; object-fit: cover; object-position: 63% 50%">
+<div style="position: absolute; top: 0; left: clamp(16px, 2.5vw, 32px); right: clamp(16px, 2.5vw, 32px); bottom: calc(clamp(14px, 1.8vw, 26px) + clamp(64px, 17.4vw, 248px) * 0.92); display: flex; flex-wrap: wrap; justify-content: space-between; align-content: center; align-items: center; gap: 28px 28px; padding: 24px 0; box-sizing: border-box">
+<div style="flex: 0 1 300px; display: flex; flex-direction: column; gap: 24px; color: #141414; text-shadow: none">
+<p style="margin: 0; font-size: clamp(18px, 1.7vw, 22px); line-height: 1.15; text-transform: uppercase; letter-spacing: 0.01em" data-edit="hero_lead">From idea<br>to strategy.<br>From strategy<br>to results.</p>
+<span aria-hidden="true" style="width: 32px; height: 1.5px; background: #141414"></span>
+<p style="margin: 0; font-size: 11px; line-height: 1.8; letter-spacing: 0.18em; text-transform: uppercase; color: #2A2A2A" data-edit="hero_focus">AI transformation strategy<br>Team adoption<br>Brand &amp; product</p>
+</div>
+<div style="flex: 0 1 260px">
+<p style="margin: 0; font-size: 11px; line-height: 1.8; letter-spacing: 0.14em; text-transform: uppercase" data-edit="hero_audience">AI transformation<br>for tech companies<br>and mid-sized businesses.</p>
+<span aria-hidden="true" style="display: block; width: 32px; height: 1.5px; background: #FFFFFF; margin: 20px 0"></span>
+<p style="margin: 0; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase" data-edit="hero_title">AI Brand Strategist</p>
+</div>
+</div>
+<h1 style="position: absolute; left: clamp(16px, 2.5vw, 32px); bottom: calc(clamp(14px, 1.8vw, 26px) + 0.15em); margin: 0; font-size: clamp(64px, 17.4vw, 248px); font-weight: 700; line-height: 0.82; letter-spacing: -0.06em; white-space: nowrap; color: rgba(255, 255, 255, 0.5); text-shadow: none" data-edit="hero_name">MarkGray</h1>
+</section>
+
+<section aria-label="Positioning" style="background: #141414; display: flex; flex-wrap: wrap; gap: 1px">
+<div style="flex: 6 1 560px; display: flex; flex-direction: column; gap: 1px">
+<div style="display: flex; flex-wrap: wrap; gap: 1px">
+<p style="flex: 1 1 300px; margin: 0; background: #ECE9E2; padding: 18px 24px; font-size: clamp(44px, 6.4vw, 88px); font-weight: 700; line-height: 0.95; letter-spacing: -0.045em" data-edit="pos1">ENGINEER</p>
+<p style="flex: 1 1 260px; margin: 0; background: #ECE9E2; padding: 18px 24px; display: flex; align-items: center; font-size: clamp(44px, 6.4vw, 88px); line-height: 0.95; font-weight: 300; text-transform: uppercase; letter-spacing: -0.03em" data-edit="pos2">mindset,</p>
+</div>
+<div style="display: flex; flex-wrap: wrap; gap: 1px">
+<p style="flex: 1 1 300px; margin: 0; background: #ECE9E2; padding: 18px 24px; font-size: clamp(44px, 6.4vw, 88px); font-weight: 700; line-height: 0.95; letter-spacing: -0.045em" data-edit="pos3">BRAND</p>
+<p style="flex: 1 1 260px; margin: 0; background: #ECE9E2; padding: 18px 24px; display: flex; align-items: center; font-size: clamp(44px, 6.4vw, 88px); line-height: 0.95; font-weight: 300; text-transform: uppercase; letter-spacing: -0.03em" data-edit="pos4">instinct.</p>
+</div>
+</div>
+<div style="flex: 1 1 160px; background: #ECE9E2; padding: 24px; display: flex; flex-direction: column; justify-content: flex-end; gap: 14px">
+<p style="margin: 0; font-size: 11px; line-height: 1.8; letter-spacing: 0.16em; text-transform: uppercase" data-edit="steps">DIAGNOSE<br>Analyze<br>BRANDIFY<br>RE-ENGINEERING<br>Strategize<br>Implement<br>Adopt</p>
+<span aria-hidden="true" style="width: 32px; height: 1.5px; background: #141414"></span>
+</div>
+</section>
+
+<section style="background: #141414; display: flex; flex-wrap: wrap; gap: 1px">
+<div id="about" style="flex: 3 1 560px; background: #ECE9E2; padding: 32px 24px; display: flex; flex-wrap: wrap; gap: 32px">
+<div style="flex: 3 1 300px; display: flex; flex-direction: column; gap: 20px">
+<div style="display: flex; gap: 24px; align-items: baseline">
+<span style="font-size: 11px; color: #4A4A4A">01</span>
+<h2 style="margin: 0; font-size: 22px; font-weight: 700; letter-spacing: -0.01em; text-transform: uppercase" data-edit="h_about">About</h2>
+</div>
+<p style="margin: 0 0 0 40px; font-size: 15px; line-height: 1.6; color: #2A2A2A" data-edit="about">I'm Mark Gray an electronics engineer. I spent many years as a product and brand manager in the electrical and electronics industry, and learned to turn data into decisions through business intelligence projects. I hold a KNX smart building and Web Deweloper internationally recognized certificate. With MarkGray, I bring this experience to the AI transformation of brands.</p>
+<span aria-hidden="true" style="margin: 12px 0 0 40px; width: 32px; height: 1.5px; background: #141414"></span>
+<p style="margin: 0 0 0 40px; font-size: 11px; line-height: 1.8; letter-spacing: 0.2em; text-transform: uppercase; color: #4A4A4A" data-edit="about_motto">Same brand.<br>Smarter processes.</p>
+</div>
+<div style="flex: 2 1 220px; display: flex; flex-direction: column; justify-content: center">
+<dl style="margin: 0; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; border-top: 1px solid #141414">
+<div style="display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-bottom: 1px solid #141414"><dt style="color: #4A4A4A">Education</dt><dd style="margin: 0; text-align: right" data-edit="fact1">Electronics Eng.</dd></div>
+<div style="display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-bottom: 1px solid #141414"><dt style="color: #4A4A4A">Certification</dt><dd style="margin: 0; text-align: right" data-edit="fact2">KNX,Front end developer</dd></div>
+<div style="display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-bottom: 1px solid #141414"><dt style="color: #4A4A4A">Experience</dt><dd style="margin: 0; text-align: right" data-edit="fact3">Product · Brand · BI · AI</dd></div>
+<div style="display: flex; justify-content: space-between; gap: 16px; padding: 12px 0; border-bottom: 1px solid #141414"><dt style="color: #4A4A4A">Today</dt><dd style="margin: 0; text-align: right" data-edit="fact4">AI BRAND ENGINEER</dd></div>
+</dl>
+</div>
+</div>
+<div id="services" style="flex: 1 1 260px; background: #ECE9E2; padding: 32px 24px; display: flex; flex-direction: column; gap: 20px">
+<div style="display: flex; gap: 24px; align-items: baseline">
+<span style="font-size: 11px; color: #4A4A4A">02</span>
+<h2 style="margin: 0; font-size: 22px; font-weight: 700; letter-spacing: -0.01em; text-transform: uppercase" data-edit="h_services">Services</h2>
+</div>
+<ul style="margin: 0 0 0 40px; padding: 0; list-style: none; font-size: 12px; line-height: 2; letter-spacing: 0.1em; text-transform: uppercase">
+<li data-edit="svc1">AI transformation strategy</li>
+<li data-edit="svc2">AI adoption &amp; training</li>
+<li data-edit="svc3">AI-driven brand strategy</li>
+<li data-edit="svc4">Product management consulting</li>
+<li data-edit="svc5">Data &amp; business intelligence</li>
+<li data-edit="svc6">AI AGENT MANAGEMENT SYSTEM</li>
+</ul>
+<span aria-hidden="true" style="margin: auto 0 0 40px; width: 32px; height: 1.5px; background: #141414"></span>
+<p style="margin: 0 0 0 40px; font-size: 11px; line-height: 1.8; letter-spacing: 0.2em; text-transform: uppercase; color: #4A4A4A" data-edit="svc_motto">Technology<br>tied to results.</p>
+</div>
+</section>
+
+<section id="work" style="background: #ECE9E2; padding: 28px 24px 0">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 12px; margin-bottom: 20px">
+<div style="display: flex; gap: 24px; align-items: baseline">
+<span style="font-size: 11px; color: #4A4A4A">03</span>
+<h2 style="margin: 0; font-size: 22px; font-weight: 700; letter-spacing: -0.01em; text-transform: uppercase" data-edit="h_work">Work Experience</h2>
+</div>
+<a href="#work" style="display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none"><span data-edit="work_link"></span>
+<svg aria-hidden="true" width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 7h12M8 2l5 5-5 5"></path></svg></a>
+</div>
+</section>
+<section aria-label="Project list" style="background: #141414; display: flex; flex-wrap: wrap; gap: 1px; margin-top: -1px">
+<article style="flex: 1 1 280px; min-width: 0; background: #ECE9E2; padding: 24px; display: flex; flex-direction: column; gap: 14px; min-height: 280px; box-sizing: border-box">
+<div style="display: flex; justify-content: space-between; align-items: baseline">
+<span style="font-size: clamp(56px, 6vw, 80px); font-weight: 700; line-height: 0.9; letter-spacing: -0.05em">001</span>
+<span style="font-size: 11px; color: #4A4A4A" data-edit="p1_year"></span>
+</div>
+<span aria-hidden="true" style="width: 48px; height: 4px; background: #D7191F"></span>
+<h3 style="margin: 0; font-size: 20px; font-weight: 700; text-transform: uppercase; letter-spacing: -0.005em" data-edit="p1_name">creative dırector</h3>
+<p style="margin: 0; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: #4A4A4A" data-edit="p1_type">3D artıst, ARt dırector, MANAGING PARTNER</p>
+<p style="margin: auto 0 0; font-size: 14px; line-height: 1.55; color: #2A2A2A" data-edit="p1_desc">Ranging from Motion Graphic Designer to Managing Director</p>
+</article>
+<article style="flex: 1 1 280px; min-width: 0; background: #ECE9E2; padding: 24px; display: flex; flex-direction: column; gap: 14px; min-height: 280px; box-sizing: border-box">
+<div style="display: flex; justify-content: space-between; align-items: baseline">
+<span style="font-size: clamp(56px, 6vw, 80px); font-weight: 700; line-height: 0.9; letter-spacing: -0.05em">002</span>
+<span style="font-size: 11px; color: #4A4A4A" data-edit="p2_year"></span>
+</div>
+<span aria-hidden="true" style="width: 48px; height: 4px; background: #D7191F"></span>
+<h3 style="margin: 0; font-size: 20px; font-weight: 700; text-transform: uppercase; letter-spacing: -0.005em" data-edit="p2_name">brand&amp;product management</h3>
+<p style="margin: 0; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: #4A4A4A" data-edit="p2_type">Product manager, Brand-Marketıng manager</p>
+<p style="margin: auto 0 0; font-size: 14px; line-height: 1.55; color: #2A2A2A" data-edit="p2_desc">Product Management, Business Development to CBO</p>
+</article>
+<article style="flex: 1 1 280px; min-width: 0; background: #ECE9E2; padding: 24px; display: flex; flex-direction: column; gap: 14px; min-height: 280px; box-sizing: border-box">
+<div style="display: flex; justify-content: space-between; align-items: baseline">
+<span style="font-size: clamp(56px, 6vw, 80px); font-weight: 700; line-height: 0.9; letter-spacing: -0.05em">003</span>
+<span style="font-size: 11px; color: #4A4A4A" data-edit="p3_year"></span>
+</div>
+<span aria-hidden="true" style="width: 48px; height: 4px; background: #D7191F"></span>
+<h3 style="margin: 0; font-size: 20px; font-weight: 700; text-transform: uppercase; letter-spacing: -0.005em" data-edit="p3_name">software developer</h3>
+<p style="margin: 0; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: #4A4A4A" data-edit="p3_type">web designer, front end developer</p>
+<p style="margin: auto 0 0; font-size: 14px; line-height: 1.55; color: #2A2A2A" data-edit="p3_desc">Web Graphic - UI/UX Designer to Software Developer</p>
+</article>
+</section>
+
+<section id="contact" style="background: #ECE9E2; padding: 28px 24px 40px; display: flex; flex-wrap: wrap; gap: 32px; align-items: center">
+<div style="flex: 2 1 420px; display: flex; gap: 24px">
+<span style="font-size: 11px; color: #4A4A4A; padding-top: 6px">04</span>
+<h2 style="margin: 0; font-size: clamp(40px, 5vw, 64px); font-weight: 700; line-height: 0.92; letter-spacing: -0.04em; text-transform: uppercase" data-edit="cta_title">Let's build<br>together.</h2>
+</div>
+<div style="flex: 1 1 260px; display: flex; flex-direction: column; gap: 18px">
+<p style="margin: 0; font-size: 14px; line-height: 1.55; color: #2A2A2A" data-edit="cta_text">A new project, a clear question, or just a good conversation. Let's talk about where AI should start in your brand.</p>
+<a href="mailto:mark@markgray.tr" data-link="booking" style="align-self: flex-start; display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 22px; background: #141414; color: #ECE9E2; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none"><span data-edit="cta_button">Book a call</span>
+<svg aria-hidden="true" width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 7h12M8 2l5 5-5 5"></path></svg></a>
+<p style="margin: 0; font-size: 13px; letter-spacing: 0.02em; color: #4A4A4A; user-select: all; -webkit-user-select: all" data-email-text="">mark@markgray.tr</p>
+</div>
+<svg viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="Badge: Smart ideas, stronger brands" style="flex: 0 0 120px">
+<defs><path id="badge2" d="M60,60 m-46,0 a46,46 0 1,1 92,0 a46,46 0 1,1 -92,0"></path></defs>
+<circle cx="60" cy="60" r="57" fill="none" stroke="#141414" stroke-width="1"></circle>
+<text fill="#141414" font-size="9" letter-spacing="2.9" font-family="Roboto, Arial, sans-serif"><textPath href="#badge2">SMART IDEAS · STRONGER BRANDS ·</textPath></text>
+<path d="M60 46 L62 58 L74 60 L62 62 L60 74 L58 62 L46 60 L58 58 Z" fill="#141414"></path>
+</svg>
+</section>
+
+<footer style="background: #ECE9E2; padding: 16px 24px; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 12px 32px">
+<span style="font-size: 16px; font-weight: 700; letter-spacing: -0.03em">MarkGray</span>
+<span style="font-size: 11px; letter-spacing: 0.22em; text-transform: uppercase; color: #4A4A4A" data-edit="slogan">AI for smarter brands</span>
+<nav aria-label="Social links" style="display: flex; flex-wrap: wrap; gap: 4px 28px">
+<a href="https://www.linkedin.com/in/m-u%C4%9Fur-eralp/" data-link="linkedin" style="display: inline-flex; align-items: center; min-height: 44px; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none" target="_blank" rel="noopener">LinkedIn</a>
+<a href="#" data-link="instagram" style="display: inline-flex; align-items: center; min-height: 44px; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none" hidden="">Instagram</a>
+<a href="#" data-link="medium" style="display: inline-flex; align-items: center; min-height: 44px; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none" hidden="">Medium</a>
+<a href="mailto:mark@markgray.tr" data-link="email" style="display: inline-flex; align-items: center; min-height: 44px; font-size: 11px; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none">Email</a>
+</nav>
+</footer>
+
+</div>
+</div>
+<script>
+(function () {
+  var panel = document.getElementById('menu-panel');
+  var openBtn = document.getElementById('menu-open');
+  var closeBtn = document.getElementById('menu-close');
+  function openMenu() {
+    panel.hidden = false;
+    openBtn.setAttribute('aria-expanded', 'true');
+    document.body.style.overflow = 'hidden';
+    closeBtn.focus();
+  }
+  function closeMenu() {
+    panel.hidden = true;
+    openBtn.setAttribute('aria-expanded', 'false');
+    document.body.style.overflow = '';
+    openBtn.focus();
+  }
+  openBtn.addEventListener('click', openMenu);
+  closeBtn.addEventListener('click', closeMenu);
+  panel.querySelectorAll('[data-menu-close]').forEach(function (a) {
+    a.addEventListener('click', closeMenu);
+  });
+  document.addEventListener('keydown', function (e) {
+    if (e.key === 'Escape' && !panel.hidden) closeMenu();
+  });
+})();
+</script>
+<style>
+.mg-tools{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:60;font-family:'Roboto',Arial,sans-serif;display:flex;flex-direction:column;align-items:flex-end;gap:8px;max-width:calc(100vw - 32px)}
+.mg-btn{min-height:44px;padding:0 18px;border:1px solid #141414;background:#141414;color:#ECE9E2;font:500 11px/1 'Roboto',Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;box-shadow:0 8px 24px rgba(0,0,0,.35)}
+.mg-btn:hover{background:#2A2A2A}
+.mg-btn:focus-visible,.mg-field input:focus-visible{outline:2px solid #D7191F;outline-offset:2px}
+.mg-btn--save{background:#D7191F;border-color:#D7191F;color:#FFFFFF}
+.mg-btn--save:hover{background:#B5141A}
+.mg-btn--ghost{background:#ECE9E2;color:#141414;box-shadow:none}
+.mg-btn--ghost:hover{background:#DCD8CF}
+.mg-btn[disabled]{opacity:.6;cursor:wait}
+.mg-bar{background:#141414;color:#ECE9E2;border:1px solid #3A3A3A;padding:14px;display:flex;flex-direction:column;gap:12px;width:340px;max-width:100%;box-sizing:border-box;box-shadow:0 16px 40px rgba(0,0,0,.5)}
+.mg-bar p{margin:0;font-size:12px;line-height:1.5;color:#C9C5BC}
+.mg-bar .mg-status{color:#ECE9E2;font-weight:500;min-height:1.5em}
+.mg-row{display:flex;flex-wrap:wrap;gap:8px}
+.mg-row .mg-btn{box-shadow:none;flex:1 1 auto}
+.mg-links{display:flex;flex-direction:column;gap:8px;border-top:1px solid #3A3A3A;padding-top:12px}
+.mg-field{display:flex;flex-direction:column;gap:4px;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#A3A3A3}
+.mg-field input{min-height:36px;padding:0 10px;border:1px solid #3A3A3A;background:#1F1F1F;color:#ECE9E2;font:14px 'Roboto',Arial,sans-serif;letter-spacing:0;text-transform:none;box-sizing:border-box;width:100%}
+.mg-mail{position:fixed;inset:0;z-index:70;background:rgba(20,20,20,.55);display:flex;align-items:center;justify-content:center;padding:16px;font-family:'Roboto',Arial,sans-serif}
+.mg-mail-box{background:#ECE9E2;color:#141414;max-width:380px;width:100%;padding:24px;display:flex;flex-direction:column;gap:14px;box-sizing:border-box;box-shadow:0 20px 50px rgba(0,0,0,.5)}
+.mg-mail-box p{margin:0;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#4A4A4A}
+.mg-mail-addr{font-size:18px;font-weight:500;word-break:break-all;user-select:all;-webkit-user-select:all}
+[data-mg-editing] [data-edit][contenteditable]{outline:1px dashed #D7191F;outline-offset:3px;cursor:text}
+[data-mg-editing] [data-edit][contenteditable]:focus{outline:2px solid #D7191F}
+</style>
+<div class="mg-tools">
+<div class="mg-bar" id="mg-bar" hidden="">
+<p class="mg-status" id="mg-status" role="status">Düzenleme modu açık</p>
+<p>Kesikli kırmızı çerçeveli metinlere tıklayıp yaz. Çok satırlı alanlarda Enter yeni satır açar.</p>
+<div class="mg-links">
+<label class="mg-field" for="mg-email">E-posta<input id="mg-email" type="email" placeholder="ornek@markgray.com" autocomplete="off"></label>
+<label class="mg-field" for="mg-booking">Book a call bağlantısı<input id="mg-booking" type="url" placeholder="https://calendly.com/… veya https://wa.me/90…" autocomplete="off"></label>
+<label class="mg-field" for="mg-linkedin">LinkedIn<input id="mg-linkedin" type="url" placeholder="https://linkedin.com/in/…" autocomplete="off"></label>
+<label class="mg-field" for="mg-instagram">Instagram<input id="mg-instagram" type="url" placeholder="https://instagram.com/…" autocomplete="off"></label>
+<label class="mg-field" for="mg-medium">Medium<input id="mg-medium" type="url" placeholder="https://medium.com/@…" autocomplete="off"></label>
+</div>
+<div class="mg-row">
+<button type="button" class="mg-btn mg-btn--ghost" id="mg-cancel">Vazgeç</button>
+<button type="button" class="mg-btn mg-btn--save" id="mg-save">Kaydet</button>
+</div>
+</div>
+<button type="button" class="mg-btn" id="mg-edit" hidden="">Metni düzenle</button>
+</div>
+<div class="mg-mail" id="mg-mail" role="dialog" aria-modal="true" aria-labelledby="mg-mail-title" hidden="">
+<div class="mg-mail-box">
+<p id="mg-mail-title">E-posta ile ulaşın</p>
+<div class="mg-mail-addr" id="mg-mail-addr"></div>
+<div class="mg-row">
+<button type="button" class="mg-btn mg-btn--ghost" id="mg-mail-close">Kapat</button>
+<button type="button" class="mg-btn mg-btn--save" id="mg-mail-copy">Adresi kopyala</button>
+</div>
+</div>
+</div>
+<script type="application/json" id="mg-content">{"text":{"tagline":"AI transformation\nBrand strategy\nProduct management","nav_about":"About","nav_services":"Services","nav_work":"Work","nav_contact":"Contact","hero_lead":"From idea\nto strategy.\nFrom strategy\nto results.","hero_focus":"AI transformation strategy\nTeam adoption\nBrand & product","hero_audience":"AI transformation\nfor tech companies\nand mid-sized businesses.","hero_title":"AI Brand Strategist","hero_name":"MarkGray","pos1":"ENGINEER","pos2":"mindset,","pos3":"BRAND","pos4":"instinct.","steps":"DIAGNOSE\nAnalyze\nBRANDIFY\nRE-ENGINEERING\nStrategize\nImplement\nAdopt","h_about":"About","about":"I'm Mark Gray an electronics engineer. I spent many years as a product and brand manager in the electrical and electronics industry, and learned to turn data into decisions through business intelligence projects. I hold a KNX smart building and Web Deweloper internationally recognized certificate. With MarkGray, I bring this experience to the AI transformation of brands.","about_motto":"Same brand.\nSmarter processes.","fact1":"Electronics Eng.","fact2":"KNX,Front end developer","fact3":"Product · Brand · BI · AI","fact4":"AI BRAND ENGINEER","h_services":"Services","svc1":"AI transformation strategy","svc2":"AI adoption & training","svc3":"AI-driven brand strategy","svc4":"Product management consulting","svc5":"Data & business intelligence","svc6":"AI AGENT MANAGEMENT SYSTEM","svc_motto":"Technology\ntied to results.","h_work":"Work Experience","work_link":"","p1_year":"","p1_name":"creative dırector","p1_type":"3D artıst, ARt dırector, MANAGING PARTNER","p1_desc":"Ranging from Motion Graphic Designer to Managing Director","p2_year":"","p2_name":"brand&product management","p2_type":"Product manager, Brand-Marketıng manager","p2_desc":"Product Management, Business Development to CBO","p3_year":"","p3_name":"software developer","p3_type":"web designer, front end developer","p3_desc":"Web Graphic - UI/UX Designer to Software Developer","cta_title":"Let's build\ntogether.","cta_text":"A new project, a clear question, or just a good conversation. Let's talk about where AI should start in your brand.","cta_button":"Book a call","slogan":"AI for smarter brands"},"links":{"email":"mark@markgray.tr","booking":"","linkedin":"https://www.linkedin.com/in/m-u%C4%9Fur-eralp/","instagram":"","medium":""}}</script>
+<script>
+(function () {
+  var PRISTINE = document.body.innerHTML;
+  var RESET = ':root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0;font:14px/1.4 system-ui,-apple-system,"Segoe UI",sans-serif}img{max-width:100%}[hidden]{display:none!important}';
+  var SINGLE = /^(p\d_(year|name|type)|svc\d|fact\d|pos\d|hero_title|hero_name|nav_\w+|h_\w+|work_link|cta_button)$/;
+  var LINK_KEYS = ['email', 'booking', 'linkedin', 'instagram', 'medium'];
+  var state = { text: {}, links: { email: '', booking: '', linkedin: '', instagram: '', medium: '' } };
+  try {
+    var saved = JSON.parse(document.getElementById('mg-content').textContent || '{}');
+    if (saved.text) state.text = saved.text;
+    if (saved.links) LINK_KEYS.forEach(function (k) { if (typeof saved.links[k] === 'string') state.links[k] = saved.links[k]; });
+  } catch (e) {}
+
+  function setLines(el, t) {
+    var d = el.ownerDocument;
+    el.textContent = '';
+    t.split('\n').forEach(function (line, i) {
+      if (i) el.appendChild(d.createElement('br'));
+      el.appendChild(d.createTextNode(line));
+    });
+  }
+  function readText(el) {
+    var out = '';
+    (function walk(n) {
+      n.childNodes.forEach(function (c) {
+        if (c.nodeType === 3) out += c.data;
+        else if (c.nodeName === 'BR') out += '\n';
+        else if (c.nodeType === 1) {
+          if (/^(DIV|P|LI)$/.test(c.nodeName) && out && out.slice(-1) !== '\n') out += '\n';
+          walk(c);
+        }
+      });
+    })(el);
+    return out.replace(/ /g, ' ').replace(/^\n+|\n+$/g, '');
+  }
+  function url(v) {
+    v = (v || '').trim();
+    if (v && !/^https?:\/\//i.test(v)) v = 'https://' + v;
+    return v;
+  }
+  function apply(root) {
+    root.querySelectorAll('[data-edit]').forEach(function (el) {
+      var v = state.text[el.getAttribute('data-edit')];
+      if (typeof v === 'string') setLines(el, v);
+    });
+    root.querySelectorAll('[data-link]').forEach(function (a) {
+      var k = a.getAttribute('data-link'), v = (state.links[k] || '').trim();
+      if (k === 'booking' && !v) { a.setAttribute('href', 'mailto:' + (state.links.email || '').trim()); a.removeAttribute('target'); a.removeAttribute('rel'); return; }
+      if (k === 'email') { a.setAttribute('href', 'mailto:' + v); return; }
+      if (v) { a.setAttribute('href', v); a.setAttribute('target', '_blank'); a.setAttribute('rel', 'noopener'); }
+      else { a.setAttribute('href', '#'); a.removeAttribute('target'); a.removeAttribute('rel'); }
+      if (k !== 'booking') { if (v) a.removeAttribute('hidden'); else a.setAttribute('hidden', ''); }
+    });
+    root.querySelectorAll('[data-email-text]').forEach(function (el) {
+      el.textContent = state.links.email.trim() || '[E-posta Adresiniz]';
+    });
+  }
+  apply(document);
+
+  var editBtn = document.getElementById('mg-edit');
+  var bar = document.getElementById('mg-bar');
+  var statusEl = document.getElementById('mg-status');
+  var saveBtn = document.getElementById('mg-save');
+  var cancelBtn = document.getElementById('mg-cancel');
+  var fields = {};
+  LINK_KEYS.forEach(function (k) { fields[k] = document.getElementById('mg-' + k); });
+  var editables = [].slice.call(document.querySelectorAll('[data-edit]')).filter(function (el) { return !el.closest('#menu-panel'); });
+  var before = null, art = null;
+
+  function onKey(e) {
+    if (e.key !== 'Enter') return;
+    e.preventDefault();
+    if (!SINGLE.test(e.currentTarget.getAttribute('data-edit'))) document.execCommand('insertLineBreak');
+  }
+  function onPaste(e) {
+    e.preventDefault();
+    var t = (e.clipboardData || window.clipboardData).getData('text/plain');
+    if (SINGLE.test(e.currentTarget.getAttribute('data-edit'))) t = t.replace(/\s*\n\s*/g, ' ');
+    document.execCommand('insertText', false, t);
+  }
+  function enter() {
+    before = editables.map(readText);
+    editables.forEach(function (el) {
+      el.setAttribute('contenteditable', 'true');
+      el.setAttribute('spellcheck', 'false');
+      el.addEventListener('keydown', onKey);
+      el.addEventListener('paste', onPaste);
+    });
+    LINK_KEYS.forEach(function (k) { fields[k].value = state.links[k]; });
+    document.documentElement.setAttribute('data-mg-editing', '');
+    statusEl.textContent = 'Düzenleme modu açık';
+    editBtn.hidden = true;
+    bar.hidden = false;
+    if (editables[0]) editables[0].focus();
+  }
+  function exit() {
+    editables.forEach(function (el) {
+      el.removeAttribute('contenteditable');
+      el.removeAttribute('spellcheck');
+      el.removeEventListener('keydown', onKey);
+      el.removeEventListener('paste', onPaste);
+    });
+    document.documentElement.removeAttribute('data-mg-editing');
+    bar.hidden = true;
+    editBtn.hidden = false;
+    editBtn.focus();
+  }
+  function cancel() {
+    editables.forEach(function (el, i) { setLines(el, before[i]); });
+    exit();
+  }
+  function build() {
+    var doc = new DOMParser().parseFromString('<!doctype html><html><head></head><body>' + PRISTINE + '</body></html>', 'text/html');
+    apply(doc);
+    doc.getElementById('mg-content').textContent = JSON.stringify(state).replace(/</g, '\\u003c');
+    return '<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>' + RESET + '</style></head><body>' + doc.body.innerHTML + '</body></html>';
+  }
+  function save() {
+    if (!art) return;
+    editables.forEach(function (el) { state.text[el.getAttribute('data-edit')] = readText(el); });
+    state.links.email = fields.email.value.trim();
+    ['booking', 'linkedin', 'instagram', 'medium'].forEach(function (k) { state.links[k] = url(fields[k].value); });
+    saveBtn.disabled = true;
+    statusEl.textContent = 'Kaydediliyor…';
+    art.publish(build()).then(function () {
+      statusEl.textContent = 'Kaydedildi';
+    }, function (err) {
+      saveBtn.disabled = false;
+      var code = err && err.code;
+      if (code === 'conflict') statusEl.textContent = 'Bu arada sayfanın daha yeni bir sürümü kaydedildi. Sayfa yenileniyor, değişikliği tekrar yapman gerekebilir.';
+      else if (code === 'not_writer' || code === 'not_granted') { statusEl.textContent = 'Bu sayfayı düzenleme iznin yok.'; setTimeout(function () { cancel(); editBtn.hidden = true; }, 2500); }
+      else if (code === 'rate_limited') statusEl.textContent = 'Çok sık kaydedildi. Birkaç saniye bekleyip tekrar Kaydet’e bas.';
+      else statusEl.textContent = 'Kaydedilemedi. Bağlantını kontrol edip tekrar dene.';
+    });
+  }
+  document.addEventListener('click', function (e) {
+    if (document.documentElement.hasAttribute('data-mg-editing') && e.target.closest && e.target.closest('a') && !e.target.closest('.mg-tools')) e.preventDefault();
+  }, true);
+  var mailBox = document.getElementById('mg-mail'), mailAddr = document.getElementById('mg-mail-addr'), mailCopy = document.getElementById('mg-mail-copy');
+  function showMail() {
+    var addr = (state.links.email || '').trim() || '[E-posta Adresiniz]';
+    mailAddr.textContent = addr;
+    mailCopy.textContent = 'Adresi kopyala';
+    mailBox.hidden = false;
+    mailCopy.focus();
+  }
+  function hideMail() { mailBox.hidden = true; }
+  document.getElementById('mg-mail-close').addEventListener('click', hideMail);
+  mailBox.addEventListener('click', function (e) { if (e.target === mailBox) hideMail(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && !mailBox.hidden) hideMail(); });
+  mailCopy.addEventListener('click', function () {
+    var t = mailAddr.textContent;
+    function selectIt() { var r = document.createRange(); r.selectNodeContents(mailAddr); var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(r); mailCopy.textContent = 'Seçildi, Ctrl+C ile kopyala'; }
+    try {
+      navigator.clipboard.writeText(t).then(function () { mailCopy.textContent = 'Kopyalandı'; }, selectIt);
+    } catch (e) { selectIt(); }
+  });
+  editBtn.addEventListener('click', enter);
+  cancelBtn.addEventListener('click', cancel);
+  saveBtn.addEventListener('click', save);
+
+  (async function () {
+    if (!window.claude || typeof window.claude.use !== 'function') return;
+    try {
+      var a = await window.claude.use('artifact');
+      if (!a) return;
+      var u = await window.claude.use('user');
+      if (u) { var ok = await u.canEdit().catch(function () { return true; }); if (!ok) return; }
+      art = a;
+      editBtn.hidden = false;
+    } catch (e) {}
+  })();
+})();
+</script>
+</body>
+</html>
